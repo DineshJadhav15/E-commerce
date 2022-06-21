@@ -1,0 +1,90 @@
+* {
+  line-height: 1.8;
+}
+
+body {
+  display: grid;
+  cursor: default;
+  width: 100%;
+}
+
+.PS3-carousel-image {
+  width: 100%;
+  margin: auto;
+}
+
+.testimonials-text-wrap::-webkit-scrollbar {
+  width: 10px;
+}
+
+.testimonials-text-wrap::-webkit-scrollbar-track {
+  background-color: #f6a91900;
+}
+
+.testimonials-text-wrap::-webkit-scrollbar-thumb {
+  background-color: #02559e;
+  border-radius: 20px;
+}
+
+.PS3-carousel img {
+  width: 80% !important;
+}
+
+.PS3-carousel h3 {
+  margin: 0% 0% 0% 3%;
+  text-align: left;
+  position: absolute;
+  bottom: 15%;
+  left: 5%;
+}
+
+.PS3-section {
+  /* background-color: whitesmoke; */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 2%; */
+}
+
+@media (max-width: 768px) {
+  .PS3-section {
+    grid-template-columns: 1fr;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 426px) {
+}
+
+@media (max-width: 625px) {
+  .PS3-section {
+    grid-template-columns: 1fr;
+    margin-bottom: 5%;
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}

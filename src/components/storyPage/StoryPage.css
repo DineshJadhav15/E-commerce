@@ -1,0 +1,43 @@
+.storyPage-main {
+  margin-top: 4%;
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+
+.storyPage-image-container {
+  /* border: 2px solid black; */
+  text-align: center;
+}
+.storyPage-image {
+  margin: 1%;
+  width: 50%;
+}
+.storyPage-content {
+  /* border: 2px solid brown; */
+  margin: auto;
+}
+
+.storyPage-content-name-container {
+  width: 80%;
+}
+
+.storyPage-content-name {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--first-color);
+}
+
+.storyPage-content-para {
+  margin-top: -1%;
+}
+.storyPage-content-read-more {
+  color: var(--first-color);
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}

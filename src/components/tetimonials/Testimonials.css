@@ -1,0 +1,184 @@
+.testimonials-container {
+  background: var(--first-color);
+}
+
+.slider-card {
+  width: 45%;
+  display: grid;
+  justify-content: center;
+  background-color: #e0f7cd;
+  border-radius: 16px;
+  margin-top: 1%;
+}
+
+.slider-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+.slider-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.slider-heading {
+  font-family: "Heebo", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 110%;
+  text-align: center;
+  margin: 0% 4% 0% 4%;
+}
+
+.slider-para {
+  font-family: "Heebo", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 90%;
+  text-align: center;
+  padding: 4%;
+}
+
+.react-3d-carousel
+  .slider-container
+  .slider-content
+  .slider-single
+  .slider-single-content {
+  box-shadow: none !important;
+}
+
+.proactive {
+  margin-left: 5%;
+}
+
+.preactive {
+  margin-left: -5%;
+}
+
+.slider-heading-avtar {
+  /* border: 1px solid red; */
+  padding: 2%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  font-size: 140%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-family: "Heebo", sans-serif;
+  font-family: "Poppins", sans-serif;
+  /* background-color: #c6c6c6; */
+  background-color: #e0f7cd;
+}
+
+.react-3d-carousel {
+  height: 40vh !important;
+}
+
+.testimonials-heading-container {
+  padding-left: 3%;
+  padding-top: 1%;
+}
+
+.testimonials-heading {
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+
+.testimonials-para {
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+.react-3d-carousel .slider-container .slider-left {
+  left: -20%;
+  z-index: -1 !important;
+}
+
+.react-3d-carousel .slider-container .slider-right {
+  left: 115% !important;
+  z-index: -1 !important;
+}
+
+.react-3d-carousel .slider-container .slider-left div {
+  top: 65% !important;
+  border: none !important;
+  border-radius: 50%;
+  width: 50px;
+  background-color: #e0f7cd;
+  color: #001e22 !important;
+  text-align: center;
+}
+
+.react-3d-carousel .slider-container .slider-left div:hover {
+  background-color: #d9281f;
+  color: #001e22 !important;
+  text-align: center;
+  font-size: 110%;
+}
+
+.react-3d-carousel .slider-container .slider-right div {
+  top: 64% !important;
+  border: none !important;
+  border-radius: 50%;
+  width: 50px;
+  /* background-color: #c6c6c6; */
+  background-color: #e0f7cd;
+  color: #001e22 !important;
+  text-align: center;
+  font-size: 110%;
+}
+
+.react-3d-carousel .slider-container .slider-right div:hover {
+  background-color: #d9281f;
+  color: #001e22 !important;
+  text-align: center;
+  font-size: 110%;
+}
+
+.slider-image {
+  width: 80px;
+  height: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .react-3d-carousel .slider-container .slider-left {
+    left: -24%;
+    z-index: -1 !important;
+  }
+
+  .react-3d-carousel .slider-container .slider-right {
+    left: 106% !important;
+    z-index: -1 !important;
+  }
+
+  .slider-card {
+    width: 80%;
+    display: grid;
+    justify-content: center;
+    /* background-color: #fff; */
+    background-color: #e0f7cd;
+    border-radius: 16px;
+    margin-top: 6%;
+  }
+
+  .proactive {
+    margin-left: 10%;
+  }
+
+  .preactive {
+    margin-left: -10%;
+  }
+
+  .testimonials-heading-hr {
+    width: 25%;
+    bottom: 10px;
+    z-index: 0;
+  }
+}

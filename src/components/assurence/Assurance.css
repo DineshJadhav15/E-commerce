@@ -1,0 +1,42 @@
+.Assurance-main {
+  /* border: 2px solid red; */
+  margin-top: 4%;
+  background-color: #e0f7cd;
+  height: 32vh;
+  margin-bottom: 1%;
+}
+
+.Assurance-container {
+  /* border: 2px solid red; */
+  margin-top: -1%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 6%;
+  margin-right: 5%;
+}
+
+.Assurance-content {
+  text-align: center;
+  text-align: start;
+  /* padding: 1%; */
+  margin: 2%;
+}
+
+.Assurance-content-icon {
+  margin-top: 2%;
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--first-color);
+}
+
+.Assurance-content-text-name {
+  font-size: 18px;
+  margin-top: -2%;
+  color: var(--first-color);
+  font-weight: 600;
+}
+
+.Assurance-content-text {
+  color: var(--first-color);
+  font-size: 16px;
+}

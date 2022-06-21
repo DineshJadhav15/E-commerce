@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+.Ecom-Header-container {
+  padding: 2%;
+  margin-top: -4%;
+}
+
+a {
+  /* color: #7e7f84; */
+  color: #194520;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f45a40;
+  text-decoration: none;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  float: left;
+  padding: 15px 25px;
+}
+
+.Ecom-header-logo {
+  width: 60%;
+  margin-top: -15%;
+}
+
+.Ecom-header-search-cart-container {
+  margin-right: 5%;
+}
+
+.Ecom-shopping-cart {
+  font-size: 25px;
+  /* margin-left: -10%; */
+}
+
+.Ecom-header-signup-button {
+  /* border: 2px solid red; */
+  border: 2px solid #194520;
+  color: #194520;
+  background-color: white;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+
+@media screen and(max-width:320px) {
+  .Ecom-shopping-cart {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .Ecom-shopping-cart {
+    font-size: 25px;
+    margin-left: -1%;
+  }
+}

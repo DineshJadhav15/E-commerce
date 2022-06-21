@@ -1,0 +1,42 @@
+.ShopByCategory-main {
+    margin-top: -4%;
+}
+
+.ShopByCategory-heading {
+  text-align: center;
+  font-size: 25px;
+  color: #194520;
+  margin-bottom: 2%;
+}
+
+.ShopByCategory-card-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 1% 2% 1% 4%;
+  padding: 0% 4%;
+}
+
+.ShopByCategory-card {
+  height: 35vh;
+  width: 20%;
+  text-align: center;
+  font: inherit;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.ShopByCategory-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  cursor: pointer;
+}
+
+.ShopByCategory-card-image {
+  width: 94%;
+}
+
+.ShopByCategory-card-content {
+  margin-top: -50%;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
