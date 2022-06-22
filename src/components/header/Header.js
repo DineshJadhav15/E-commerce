@@ -12,7 +12,6 @@ const Header = () => {
           style={{ fontSize: "20px" }}
           href="/"
         >
-          {/* <img src={favicon} alt="logo" /> */}
           SCROnUTS <span class="sr-only">(current)</span>
         </a>
         <button

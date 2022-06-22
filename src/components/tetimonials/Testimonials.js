@@ -1,37 +1,33 @@
 import React, { useState, useEffect } from "react";
 import { Carousel } from "3d-react-carousal";
-// import firebase from "../../firebase/Firebase";
 import kaju from "../../assets/kaju.png";
 import "./Testimonials.css";
 
 const Testimonials = () => {
-  // const db = firebase.firestore();
-
   const [testimonial, setTestimonial] = useState([
     {
       image: "image1",
-      testimonialsTitle: "testimonialsTitle1",
-      testimonialsDesp: "testimonialsDesp1",
+      testimonialsTitle:
+        "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying",
+      testimonialName: "testimonial Name1",
     },
     {
       image: "image2",
-      testimonialsTitle: "testimonialsTitle2",
-      testimonialsDesp: "testimonialsDesp2",
+      testimonialsTitle:
+        "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying",
+      testimonialName: "testimonial Name2",
     },
     {
       image: "image3",
-      testimonialsTitle: "testimonialsTitle3",
-      testimonialsDesp: "testimonialsDesp3",
+      testimonialsTitle:
+        "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying",
+      testimonialName: "testimonial Name3",
     },
     {
       image: "image4",
-      testimonialsTitle: "testimonialsTitle4",
-      testimonialsDesp: "testimonialsDesp4",
-    },
-    {
-      image: "image5",
-      testimonialsTitle: "testimonialsTitle5",
-      testimonialsDesp: "testimonialsDesp5",
+      testimonialsTitle:
+        "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying",
+      testimonialName: "testimonial Name4",
     },
   ]);
 
@@ -41,13 +37,14 @@ const Testimonials = () => {
     ? (slides = testimonial.map((data, index) => {
         return (
           <div className="slider-card" key={index}>
-            <div className="slider-img-container">
+            {/* <div className="slider-img-container">
               <img className="slider-image" src={kaju} alt="testImg" />
-            </div>
+            </div> */}
 
             <p className="slider-heading">{data.testimonialsTitle}</p>
 
-            <p className="slider-para">{data.testimonialsDesp}</p>
+            <p className="slider-para">{data.testimonialName}</p>
+            <p className="slider-para-contenet"> CEO of SCRONUTS</p>
           </div>
         );
       }))
@@ -72,6 +69,7 @@ const Testimonials = () => {
           autoplay={true}
           interval={5000}
           onSlideChange={callback}
+          arrows={true}
         />
       </div>
     </>
