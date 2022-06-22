@@ -146,8 +146,10 @@
 }
 
 .react-3d-carousel .slider-container .slider-right div:hover {
-  background-color: #d9281f;
-  color: #001e22 !important;
+  /* background-color: #d9281f; */
+  background-color: var(--first-color);
+  color: white;
+  /* color: #001e22 !important; */
   text-align: center;
   font-size: 110%;
 }
