@@ -171,13 +171,14 @@
   }
 
   .slider-card {
-    width: 80%;
+    width: 100%;
     display: grid;
     justify-content: center;
     /* background-color: #fff; */
     background-color: #e0f7cd;
     border-radius: 16px;
     margin-top: 6%;
+    height: auto;
   }
 
   .proactive {

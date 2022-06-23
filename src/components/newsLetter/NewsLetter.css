@@ -4,7 +4,6 @@
 }
 
 .NewsLetter-para-container {
-  /* margin-top: 2%; */
   width: 32%;
   margin-left: 34%;
 }
@@ -55,5 +54,42 @@
   }
   .NewsLetter-input-search {
     flex: 0 0 480px;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+  .NewsLetter-main {
+    margin-top: 10%;
+    background-color: #e0f7cd;
+    height: 25vh;
+    margin-bottom: 2%;
+  }
+  .NewsLetter-para-container {
+    width: 85%;
+    margin-left: 7.5%;
+    margin-bottom: 1%;
+  }
+
+  .NewsLetter-search-main {
+    width: 45%;
+    margin-left: 27.5%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+/* i-pad */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .NewsLetter-main {
+    background-color: #e0f7cd;
+    height: 18vh;
+    margin-bottom: 2%;
+  }
+
+  .NewsLetter-para-container {
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 1%;
   }
 }

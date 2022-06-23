@@ -1,5 +1,5 @@
 .ShopByCategory-main {
-    margin-top: -4%;
+  margin-top: -4%;
 }
 
 .ShopByCategory-heading {
@@ -26,7 +26,8 @@
 }
 
 .ShopByCategory-card:hover {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   cursor: pointer;
 }
 
@@ -39,4 +40,17 @@
   font-size: 18px;
   font-weight: 600;
   color: white;
+}
+/* mobile */
+@media screen and (max-width: 767px) {
+  .ShopByCategory-card-container {
+    /* margin: 1% 2% 1% 4%;
+    padding: 0% 4%; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* i-pad */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
 }

@@ -11,7 +11,7 @@ import ShopByCategory from "../shopByCategory/ShopByCategory";
 const TrustedPartners = () => {
   return (
     <>
-      <ShopByCategory />
+      {/* <ShopByCategory /> */}
       <div className="TrustedPartners-main">
         <h3 className="TrustedPartners-heading">Our trusted partners </h3>
         <div className="TrustedPartners-containers">

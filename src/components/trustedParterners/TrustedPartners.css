@@ -25,3 +25,25 @@
 .TrustedPartners-images {
   width: 40%;
 }
+
+/* mobile */
+@media screen and (max-width: 767px) {
+  .TrustedPartners-containers {
+    margin: 1%;
+    padding: 4%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: -3%;
+  }
+}
+
+/* i-pad */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .TrustedPartners-containers {
+    margin: 1%;
+    padding: 4%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: -3%;
+  }
+}

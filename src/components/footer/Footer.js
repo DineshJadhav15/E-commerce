@@ -43,7 +43,8 @@ const Footer = () => {
                 style={{ marginRight: "5%" }}
                 aria-hidden="true"
               ></i>
-              Bandal Dhankude Plaza, <br /> Kothrud Pune-38 India.
+              Bandal Dhankude <br /> Plaza,Kothrud <br />
+              Pune-38 India.
             </li>
             <li>
               <i
@@ -63,8 +64,8 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="Footer-company">
-          <p className="Getintouch">Social Links</p>
+        <div className="Footer-social-container">
+          <p className="socialLinks">Social Links</p>
           <div className="footer-social">
             <p>
               <i className="fa fa-instagram"></i>

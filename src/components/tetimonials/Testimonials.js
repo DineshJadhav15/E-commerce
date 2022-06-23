@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
+import "./Testimonials.css";
 import { Carousel } from "3d-react-carousal";
 import kaju from "../../assets/kaju.png";
-import "./Testimonials.css";
 import NewsLetter from "../newsLetter/NewsLetter";
 
 const Testimonials = () => {
